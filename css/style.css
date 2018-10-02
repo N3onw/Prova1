@@ -1,26 +1,28 @@
 *{
     box-sizing: border-box;
-    margin: 0px;
     font-family: Arial
 }
 
-#container{
-    height: 657px;
+#containercab{
+    height: 193px;
     width: 80%;
-    border: 1px solid black;
-    margin: 0 auto;
-    background-color: #dcdcdc;
+    /*border: 1px solid black;*/
+    margin: 0px auto 0px;
 }
 #logo{
-    position: relative;
+    position: absolute;
     float: left;
     margin-right: 40px;
 }
 #cabecalho{
-    position: relative;
-    padding: 20px
+    margin-left: 147px;
+    position: absolute;
+    padding: 20px;
+    height: 130px;
+    width: 50%;
 }
 #cabecalho h1{
+    margin-left: 50px;
     font-size: 20px;
     font-family: Arial
 }
@@ -29,6 +31,7 @@
     width: 300px;
     border-radius: 4px;
     padding: 10px;
+    margin-left: 50px;
 }
 #btn_busca{
     margin: -7px;
@@ -47,4 +50,74 @@
     padding-left: 30px;
     margin-top: 5px;
     font-size: 18px;
+}
+#cabecalho2{
+    padding-top: 50px;
+    padding-right: 40px;
+    float: right;
+}
+#cabecalho2 h1{
+    margin-left: 85px;
+    font-size: 20px;
+    font-family: Arial
+}
+#carrinho{
+    margin-top: -10px;
+    margin-right: 170px;
+    float: left;
+}
+#quantidadeCarrinho{
+    margin-right: 25px;
+    margin-left: -210px;
+    float: right;
+}
+#cabecalho3{
+    margin-left: 218px;
+    margin-top: 150px;
+    float: left;
+}
+#txtCM{
+    float: left;
+    margin-top: 4px;
+}
+#iCM{
+    border-radius: 4px;
+    height: 25px;
+    width: 120px;
+    margin-left: 5px;
+    margin-top: 0px;
+    padding: 10px
+}
+#txtCM2{
+    margin-top: 18px;
+    float: left;
+}
+#cabecalho4{
+    margin-left: 4px;
+    margin-top: 135px;
+    float: left;
+}
+#txtPS{
+    margin-top: 18px;
+    margin-left: 60px;
+    float: left;
+}
+#iPS{
+    border-radius: 4px;
+    height: 25px;
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 15px;
+    padding: 10px
+}
+#txtPS2{
+    margin-top: 154px;
+    margin-left: 4px;
+    float: left;
+}
+#containercorp{
+    height: 450px;
+    width: 80%;
+    border: 1px solid black;
+    margin: 0px auto 0px;
 }
