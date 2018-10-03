@@ -28,14 +28,14 @@
 }
 #iBusca{
     height: 35px;
-    width: 300px;
+    width: 385px;
     border-radius: 4px;
     padding: 10px;
     margin-left: 50px;
 }
 #btn_busca{
     margin: -7px;
-    height: 35px;
+    height: 37px;
     width: 110px;
     
     border-radius: 4px;
@@ -190,16 +190,14 @@
 .txtNavBar{
     text-align: center;
 }
-#menu3 a{
-    text-decoration: none;
-    color: black
-}
 #txtMenu1{
     height: 70px;
     width: 17%;
     border: 1px solid black;
     border-top: 0px solid black;
-    float: left
+    float: left;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 #txtMenu2{
     height: 70px;
@@ -207,7 +205,9 @@
     border: 1px solid black;
     border-top: 0px solid black;
     border-left: 0px solid black;
-    float: left
+    float: left;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 #txtMenu3{
     height: 70px;
@@ -215,7 +215,9 @@
     border: 1px solid black;
     border-top: 0px solid black;
     border-left: 0px solid black;
-    float: left
+    float: left;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 #txtMenu4{
     height: 70px;
@@ -223,7 +225,9 @@
     border: 1px solid black;
     border-top: 0px solid black;
     border-left: 0px solid black;
-    float: left
+    float: left;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 #txtMenu5{
     height: 70px;
@@ -231,7 +235,9 @@
     border: 1px solid black;
     border-top: 0px solid black;
     border-left: 0px solid black;
-    float: left
+    float: left;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 #txtMenu6{
     height: 70px;
@@ -239,7 +245,9 @@
     border: 1px solid black;
     border-top: 0px solid black;
     border-left: 0px solid black;
-    float: left
+    float: left;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 .lista1{
     margin-top: 5px;
@@ -262,8 +270,8 @@
     height: 100%;
     width: 320px;
     /* aaa */
-    /*border: 1px solid black*/
-    margin-left: 10px;
+    border-radius: 6px;
+    border: 1px solid black
 }
 #carroFrete{
     margin-top: 20px;
@@ -300,4 +308,26 @@
     float: right;
     margin-top: -50px;
     margin-right: 35px;
+}
+.link2{
+    text-decoration: none;
+    color: black;
+}
+#pagamento{
+    margin-top: -178px;
+    margin-right: 375px;
+    height: 100%;
+    width: 320px;
+    border-radius: 6px;
+    border: 1px solid black;
+    float: right;
+}
+#sup{
+    margin-top: -178px;
+    margin-right: -695px;
+    height: 100%;
+    width: 320px;
+    border-radius: 6px;
+    border: 1px solid black;
+    float: right
 }
