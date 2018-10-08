@@ -1,8 +1,12 @@
+/* Geral */
+
 *{
     box-sizing: border-box;
     font-family: Arial;
     margin: 0px;
 }
+
+/* Index */
 
 #containercab{
     height: 193px;
@@ -14,6 +18,9 @@
     position: absolute;
     float: left;
     margin-right: 40px;
+}
+#logo img{
+    border-radius: 5px;
 }
 #cabecalho{
     margin-left: 147px;
@@ -438,4 +445,99 @@
     width: 80%;
     height: auto;
     /*border: 1px solid black*/
+}
+
+/* Cartão de visita */
+
+#image{
+    position: absolute;
+    height: 180px;
+    width: 330px;
+    padding-left: 5px;
+    /*border: 1px solid black*/
+}
+#img{
+    position: relative;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 300px;
+}
+#img:hover{
+    width: 302px;
+    height: auto;
+}
+#tipo{
+    position: absolute;
+    margin-left: 35%;
+    height: 180px;
+    width: 330px;
+    padding-top: 15px;
+    /*border: 1px solid black;*/
+    padding-left: 5px;
+}
+#tipo h1{
+    position: relative;
+    font-size: 25px;
+    font-family: Arial;
+}
+#sTipo{
+    position: relative;
+    margin-top:7px;
+    width: 310px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+#pagar{
+    position: absolute;
+    margin-left: 70%;
+    height: 180px;
+    width: 330px;
+    padding-top: 5px;
+    /*border: 1px solid black;*/
+    padding-left: 5px;
+}
+#pagar p{
+    position: relative;
+    margin-left: 65px;
+    margin-top: -50px;
+    font-size: 17px;
+}
+#pagar img{
+    position: relative;
+    margin-top: 15px;
+    font-size: 15px;
+}
+#p1{
+    position: relative;
+    float: right;
+    padding-top: 12px;
+    margin-right: 15px;
+}
+#pagar h1{
+    position: relative;
+    font-size: 25px;
+    font-family: Arial;
+    float: right;
+    margin-right: 15px;
+    margin-top: -15px;
+}
+#btn_Add{
+    position: relative;
+    margin-top: 21px;
+    height: 50px;
+    width: 300px;
+    margin-left: 8px;
+    border-radius: 4px;
+    background-color: #87CEFA;
+}
+#Corpinho{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   padding-left: 100;
+   /*border: 1px solid black;*/
 }
