@@ -541,3 +541,30 @@
    padding-left: 100;
    /*border: 1px solid black;*/
 }
+
+/* Banners */
+
+.radio{
+    margin-top: 5px;
+}
+#iCM2{
+    border-radius: 4px;
+    height: 25px;
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 3px;
+    padding: 10px
+}
+
+#img2{
+    position: relative;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    height: 158px;
+    width: 290px;
+}
+#img2:hover{
+    width: 292px;
+}
